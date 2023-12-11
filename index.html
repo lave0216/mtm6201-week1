@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,5 +21,55 @@
     </dl>
     
     
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      font-family: 'Arial', sans-serif;
+      color: #333;
+      position: relative;
+      animation: heartbeat 1.5s infinite;
+    }
+
+    .heart::before {
+      content: '\2764'; /* Unicode character for heart */
+      color: red;
+      position: absolute;
+      animation: heartbeat 1.5s infinite;
+    }
+
+    @keyframes heartbeat {
+      0% { transform: scale(1); }
+      25% { transform: scale(1.2); }
+      50% { transform: scale(1); }
+      75% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+  </style>
+  <title>I Miss You</title>
+</head>
+<body>
+  <div class="container">
+    <h1>I miss you MR. JANOUSEK come kiss me😘</h1>
+  </div>
 </body>
 </html>
